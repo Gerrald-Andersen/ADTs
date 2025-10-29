@@ -1,0 +1,6 @@
+// Stack Visualization
+digraph {
+	graph [fontsize=24 label="" labelloc=t rankdir=LR]
+	node [fontname="Comic Sans MS" fontsize=16 shape=rectangle]
+	empty [label="Stack is Empty" shape=box]
+}

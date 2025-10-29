@@ -1,0 +1,6 @@
+// Queue Visualization
+digraph {
+	graph [fontname=serif fontsize=24 label="" labelloc=t rankdir=BT]
+	node [fontname="Comic Sans MS" fontsize=16 shape=rectangle]
+	empty [label="Queue is Empty" shape=box]
+}

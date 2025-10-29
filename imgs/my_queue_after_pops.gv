@@ -1,0 +1,10 @@
+// Queue Visualization
+digraph {
+	graph [fontname=serif fontsize=24 label="" labelloc=t rankdir=BT]
+	node [fontname="Comic Sans MS" fontsize=16 shape=rectangle]
+	front_label [label=Front shape=plaintext]
+	rear_label [label=Rear shape=plaintext]
+	queue [label="<front> 30 | A | B | <rear> &nbsp;" shape=record]
+	front_label -> queue:front
+	rear_label -> queue:rear
+}

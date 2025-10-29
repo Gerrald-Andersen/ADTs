@@ -1,0 +1,8 @@
+// Stack Visualization
+digraph {
+	graph [fontsize=24 label="" labelloc=t rankdir=LR]
+	node [fontname="Comic Sans MS" fontsize=16 shape=rectangle]
+	top_label [label=Top shape=plaintext]
+	stack [label="<top> 17" shape=record]
+	top_label -> stack:top
+}

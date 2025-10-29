@@ -1,0 +1,12 @@
+// Binary Search Tree Visualization
+digraph {
+	graph [fontname=serif fontsize=24 label="A slightly taller tree" labelloc=t]
+	node [fontname="Comic Sans MS"]
+	5
+	-3
+	5 -> -3
+	fake1 [label=o style=invis width=0.1]
+	5:s -> fake1 [label="" style=invis]
+	9
+	5 -> 9
+}

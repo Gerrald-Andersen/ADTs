@@ -1,0 +1,42 @@
+// Binary Search Tree Visualization
+digraph {
+	graph [fontname=serif fontsize=24 label="A tree with all elements" labelloc=t]
+	node [fontname="Comic Sans MS"]
+	5
+	1
+	5 -> 1
+	fake1 [label=o style=invis width=0.1]
+	5:s -> fake1 [label="" style=invis]
+	7
+	5 -> 7
+	fake2 [label=o style=invis width=0.1]
+	1 -> fake2 [label="" style=invis]
+	fake3 [label=o style=invis width=0.1]
+	1:s -> fake3 [label="" style=invis]
+	3
+	1 -> 3
+	fake4 [label=o style=invis width=0.1]
+	3 -> fake4 [label="" style=invis]
+	fake5 [label=o style=invis width=0.1]
+	3:s -> fake5 [label="" style=invis]
+	4
+	3 -> 4
+	6
+	7 -> 6
+	fake6 [label=o style=invis width=0.1]
+	7:s -> fake6 [label="" style=invis]
+	8
+	7 -> 8
+	fake7 [label=o style=invis width=0.1]
+	8 -> fake7 [label="" style=invis]
+	fake8 [label=o style=invis width=0.1]
+	8:s -> fake8 [label="" style=invis]
+	10
+	8 -> 10
+	9
+	10 -> 9
+	fake9 [label=o style=invis width=0.1]
+	10:s -> fake9 [label="" style=invis]
+	fake10 [label=o style=invis width=0.1]
+	10 -> fake10 [label="" style=invis]
+}

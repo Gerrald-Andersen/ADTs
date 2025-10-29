@@ -1,0 +1,6 @@
+// Binary Search Tree Visualization
+digraph {
+	graph [fontname=serif fontsize=24 label="A very short tree" labelloc=t]
+	node [fontname="Comic Sans MS"]
+	5
+}

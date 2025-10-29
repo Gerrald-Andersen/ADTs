@@ -1,0 +1,24 @@
+// Binary Search Tree Visualization
+digraph {
+	graph [fontname=serif fontsize=24 label="My BST" labelloc=t]
+	node [fontname="Comic Sans MS"]
+	D
+	B
+	D -> B
+	fake1 [label=o style=invis width=0.1]
+	D:s -> fake1 [label="" style=invis]
+	F
+	D -> F
+	A
+	B -> A
+	fake2 [label=o style=invis width=0.1]
+	B:s -> fake2 [label="" style=invis]
+	C
+	B -> C
+	E
+	F -> E
+	fake3 [label=o style=invis width=0.1]
+	F:s -> fake3 [label="" style=invis]
+	G
+	F -> G
+}
